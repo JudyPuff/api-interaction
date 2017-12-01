@@ -3,23 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Maori Quote of the Day!</title>
-    <!link rel="stylesheet" type="text/css" href="style/main.css">
-    <script src="api-interaction.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script type="text/javascript" src='api-interaction.js'> </script>
+  <h1>Maori Proverb (Whakatauki) Generator</h1>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
 
-      <button id="ajaxButton" type="button">Get Quote or Whakatauki!</button>
-    </div>
-    <div class="container">
-      <div class="quote-text">
+
+    <div class="quote-box">
+      <div class="whakatauki">
 
 
       </div>
-      <div class="translation">
+      <div class="quote">
+        <h2>Maori Proverb:</h2>
+      <div id="maori"></div>
+      <h2>Enlgish Translation:</h2>
+      <div id="english"></div>
 
       </div>
 
-    </div>
+
+      </div>
+      <div class="buttons">
+        <button id="ajaxButton" type="button"><h2>New Proverb</h2></button>
+        <button id="tweet-quote" type="button" ><h2>Tweet this proverb</h2></button>
+      </div>
+      </div>
+
+    <div class="footer">Made by Judy Ting-Edwards as a part of Enspiral Dev Academy<a href="https://judypuff.github.io">Check out my other projects!</a></div>
+
   </body>
 </html>

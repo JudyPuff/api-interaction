@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +11,9 @@ div {
 }
 
 body {
-  background-color: #333;
+  background-color: #666;
   color: #333;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight:400;
 }
 .footer {
@@ -76,7 +76,7 @@ body {
       &:hover {
         opacity:0.9;
       }
-      &#tweet-quote, &#tumblr-quote {
+      &#tweet-quote {
         float:left;
         padding:0px;
         padding-top:8px;
